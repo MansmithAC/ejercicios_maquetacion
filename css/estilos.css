@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif
+}
+.ejercicio1{
+    background-color: darkslateblue;
+    height: 100vh;
+    padding: 10;
+}
+.ejercicio1 .card1 img{}
+.ejercicio1 .card1 .datos_carga{}
+.ejercicio1 .card1 .lista_archivos{}
+.ejercicio1 .card1 button{}
