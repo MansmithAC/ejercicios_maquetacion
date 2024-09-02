@@ -2,16 +2,119 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 body{
     font-family: sans-serif
 }
 .ejercicio1{
-    background-color: darkslateblue;
-    height: 100vh;
-    padding: 10;
+    background-color: blueviolet;
+    margin: 0px;
+    padding-bottom: 20px;
 }
-.ejercicio1 .card1 img{}
+.ejercicio1 .card1{
+    width: 410px;
+    background: white;
+    border-radius:30px;
+    margin:0 auto;
+}
+.ejercicio1 .card1 img{
+    padding-top: 20px;
+    width: 350px;
+    border-radius: 30px;
+}
 .ejercicio1 .card1 .datos_carga{}
-.ejercicio1 .card1 .lista_archivos{}
-.ejercicio1 .card1 button{}
+.ejercicio1 .card1 .datos_carga h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: darkviolet;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.ejercicio1 .card1 .datos_carga p{
+    font-size: 18px;
+    color: gray;
+    padding: auto;
+    padding-bottom: 40px;
+}
+.ejercicio1 .card1 .lista_archivos{
+    list-style: none;
+    padding-bottom: 30px;
+}
+.ejercicio1 .card1 .lista_archivos li{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 10px;
+}
+.ejercicio1 .card1 button{
+    border: none;
+    background-color: blueviolet;
+    width: 130px;
+    height: 58px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.ejercicio2{
+    background-color: lightgray;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.ejercicio2 .card2{
+    width: 410px;
+    background: white;
+    border-radius:30px;
+    margin:0 auto;
+
+}
+.ejercicio2 .card2 img{
+    padding-top: 20px;
+    width: 350px;
+    border-radius: 100px;
+}
+.ejercicio2 .card2 .titulo{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20pt;
+    color: black; 
+}
+.ejercicio2 .card2 .texto{
+    padding-bottom: 5px;
+    font-size: 10pt;
+    color: gray;
+}
+.ejercicio2 .card2 button{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 10px;
+    background-color: rgb(234, 151, 42);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    height: 45px;
+    width: 180px;
+}
+.ejercicio2 .card2 .contenedor{
+    text-align: center;
+    padding-top: 35px;
+}
+.ejercicio2 .card2 .contenedor .ul .li{
+    list-style: none;
+}
+.ejercicio2 .card2 .contenedor .ul .li .cir1{
+    display: inline-block;
+    text-indent: -9999px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: lightgray;
+    border: none; 
+}
+.ejercicio2 .card2 .contenedor .ul .li .cir1{
+    background-color: gray;
+}
